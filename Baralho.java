@@ -1,5 +1,3 @@
-package baralho;
-
 import java.security.*;
 
 public class Baralho {

@@ -1,5 +1,3 @@
-package baralho;
-
 public class Jogador {
 	private Carta[] mao;
 	private int tamanho;

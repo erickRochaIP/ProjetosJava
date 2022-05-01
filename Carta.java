@@ -1,5 +1,3 @@
-package baralho;
-
 public class Carta {
 	private int valor;
 	private String naipe;
