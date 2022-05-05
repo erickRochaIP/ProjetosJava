@@ -1,4 +1,3 @@
-# ProjetosJava
-Repositório para guardar projetos de Java
+# Pagamento
 
-Pretendo criar uma branch para cada projeto
+Realize o pagamento de todos os funcionários usando polimorfismo
