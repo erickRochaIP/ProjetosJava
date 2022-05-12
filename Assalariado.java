@@ -6,4 +6,12 @@ public class Assalariado extends Empregado{
 	{
 		return ControlePagamento.salario + (this.horasExtras * ControlePagamento.hora);
 	}
+	
+	public double getHorasExtras() {
+		return this.horasExtras;
+	}
+	
+	public void setHorasExtras(double horasExtras) {
+		this.horasExtras = horasExtras;
+	}
 }

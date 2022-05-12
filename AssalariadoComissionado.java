@@ -4,7 +4,7 @@ public class AssalariadoComissionado extends Comissionado{
 	
 	public double getValorAPagar(int diaPagto, int mesPagto)
 	{
-		return ControlePagamento.salario + (this.getValorVendas() * this.getPercentualBonus());
+		return (ControlePagamento.salario * 1.1) + (this.getValorVendas() * this.getPercentualBonus());
 	}
 	
 	public double getPercentualBonus() {
