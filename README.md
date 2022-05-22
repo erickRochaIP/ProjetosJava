@@ -1,4 +1,4 @@
-# ProjetosJava
-Repositório para guardar projetos de Java
+# Formas
+Cansado de herança? Espera só até ver as interfaces!
 
-Pretendo criar uma branch para cada projeto
+Modele uma caixa de brinquedos usando ao máximo os conceitos de Polimorfismo
