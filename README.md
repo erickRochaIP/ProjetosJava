@@ -1,4 +1,2 @@
-# ProjetosJava
-Repositório para guardar projetos de Java
-
-Pretendo criar uma branch para cada projeto
+# SuporteTecnico
+Use as Collections disponibilizadas pelo JAVA para prestar suporte tecnico automatizado aos seus clientes
