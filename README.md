@@ -1,4 +1,2 @@
-# ProjetosJava
-Repositório para guardar projetos de Java
-
-Pretendo criar uma branch para cada projeto
+# Agenda
+Aproveite o tratamento de exceções para manipular arquivos com Java
