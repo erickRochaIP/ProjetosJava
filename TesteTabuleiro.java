@@ -14,6 +14,7 @@ public class TesteTabuleiro {
 		
 		Tabuleiro tabuleiro = new Tabuleiro();
 		while(!tabuleiro.jogoAcabou()) {
+			tabuleiro.printOpcoesJogador(vezDe);
 			System.out.println("Jogador " + vezDe + ", informe a coluna");
 			int coluna = scan.nextInt();
 			System.out.println("Jogador " + vezDe + ", informe a linha");
@@ -21,6 +22,22 @@ public class TesteTabuleiro {
 					
 			try {
 				tabuleiro.adicionarPeca(linha, coluna, vezDe);
+				tabuleiro.limparEscolhas(vezDe);
+				System.out.println("Informe suas opcoes de escolha pro proximo turno");
+				int nEscolha = 0;
+				while(nEscolha < 3) {
+					try {
+						System.out.println("Opcao " + nEscolha);
+						System.out.println("Informe a coluna");
+						int colunaEscolha = scan.nextInt();
+						System.out.println("Informe a linha");
+						int linhaEscolha = scan.nextInt();
+						tabuleiro.adicionarEscolha(linhaEscolha, colunaEscolha, vezDe);
+						nEscolha += 1;
+					}catch(Exception ex) {
+						System.out.println(ex.getMessage());
+					}
+				}
 				vezDe = (vezDe + 1) % 2;
 				tabuleiro.mostrarTabuleiro();
 				
