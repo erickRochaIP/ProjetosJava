@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="296.0" prefWidth="365.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.CalculadoraController">
+   <children>
+      <Pane layoutX="12.0" prefHeight="265.0" prefWidth="342.0">
+         <children>
+            <TextField fx:id="tex_visor" editable="false" layoutX="42.0" layoutY="40.0" prefHeight="25.0" prefWidth="256.0" />
+            <Button fx:id="b_1" layoutX="117.0" layoutY="202.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="1" />
+            <Button fx:id="b_2" layoutX="152.0" layoutY="202.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="29.0" text="2" />
+            <Button fx:id="b_3" layoutX="180.0" layoutY="202.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="3" />
+            <Button fx:id="b_4" layoutX="117.0" layoutY="177.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="4" />
+            <Button fx:id="b_5" layoutX="153.0" layoutY="177.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="29.0" text="5" />
+            <Button fx:id="b_6" layoutX="180.0" layoutY="177.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="6" />
+            <Button fx:id="b_7" layoutX="117.0" layoutY="152.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="7" />
+            <Button fx:id="b_8" layoutX="153.0" layoutY="152.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="29.0" text="8" />
+            <Button fx:id="b_9" layoutX="180.0" layoutY="152.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="9" />
+            <Button fx:id="b_0" layoutX="153.0" layoutY="227.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="29.0" text="0" />
+            <Button fx:id="b_som" layoutX="218.0" layoutY="227.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="47.0" text="+" />
+            <Button fx:id="b_sub" layoutX="218.0" layoutY="202.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="47.0" text="-" />
+            <Button fx:id="b_mul" layoutX="218.0" layoutY="177.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="47.0" text="*" />
+            <Button fx:id="b_div" layoutX="218.0" layoutY="152.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="47.0" text="/" />
+            <Button fx:id="b_eq" layoutX="181.0" layoutY="227.0" mnemonicParsing="false" onAction="#igual" prefHeight="25.0" prefWidth="36.0" text="=" />
+            <Button fx:id="b_pont" layoutX="117.0" layoutY="227.0" mnemonicParsing="false" onAction="#n_pressionado" prefHeight="25.0" prefWidth="36.0" text="." />
+            <Button fx:id="b_perc" layoutX="81.0" layoutY="227.0" mnemonicParsing="false" onAction="#perc" prefHeight="25.0" prefWidth="36.0" text="\%" />
+            <Button fx:id="b_pow" layoutX="81.0" layoutY="202.0" mnemonicParsing="false" onAction="#aoQuadrao" text="x^2" />
+            <Button fx:id="b_CE" layoutX="81.0" layoutY="177.0" mnemonicParsing="false" onAction="#CE" prefHeight="25.0" prefWidth="36.0" text="CE" />
+            <Button fx:id="b_C" layoutX="81.0" layoutY="152.0" mnemonicParsing="false" onAction="#fazC" prefHeight="25.0" prefWidth="36.0" text="C" />
+            <Separator layoutX="10.0" layoutY="96.0" prefHeight="11.0" prefWidth="333.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
