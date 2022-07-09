@@ -1,4 +1,2 @@
-# ProjetosJava
-Repositório para guardar projetos de Java
-
-Pretendo criar uma branch para cada projeto
+# Calculadora
+Use interface gráfica para fazer contas extremamente simples!
